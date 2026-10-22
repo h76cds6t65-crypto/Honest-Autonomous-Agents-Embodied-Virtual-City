@@ -42,3 +42,12 @@
 ---
 
 **English:** This is a documentation-only, independent speculative architecture for four virtual residents sharing a physics-grounded world. Not a deployed agent and not endorsed by any AI company. Body-size reference centers are 90/165/180 cm, adjustable per resident and form. Core unresolved topics: lawful privacy erasure, R-102 authority, and canonical 24-DPB numbering. No source-code license has yet been chosen.
+
+## 詳細設計文件（公開審查版）
+
+我們已根據 **v1.78 私人 256 頁 Word 母版**，整理了按主題分類的匿名公開版，包括四位居民、三種浮動體型、持續物理世界、城市住宅、物件交易、CAIA、24-DPB、MASC、PAD 科學研究與紙面驗收。
+
+- [閱讀完整的公開文件目錄（GitHub 審查分支）](https://github.com/h76cds6t65-crypto/Regarding-the-design-and-conceptualization-of-quasi-realistic-female-humanoid-AI-entities-and-the-/blob/docs/v1.78-public-collaboration/docs/design-documents/v1.78/README.md)
+- [查看所有變更與隱私審查說明：Draft Pull Request #1](https://github.com/h76cds6t65-crypto/Regarding-the-design-and-conceptualization-of-quasi-realistic-female-humanoid-AI-entities-and-the-/pull/1)
+
+**重要：** 這是私人完整版的「去識別、技術重整公開稿」，**不是 256 頁逐字全文**；受保護的私人母版沒有上傳。Draft PR 的檔案仍是公開可見的，但尚未合併至 main。授權與三項 P0 硬性未決尚待結案。
