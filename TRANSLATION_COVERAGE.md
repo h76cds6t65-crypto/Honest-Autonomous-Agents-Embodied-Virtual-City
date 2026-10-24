@@ -2,7 +2,7 @@
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City · Public review v1.85 · 2026-10-24**
 
-[Project home](README.md) · [English home](README_EN.md) · [English history library](HISTORY_EN.md) · [Chinese original public source](v1.85_ZH-TW.md) · [Current English design](v1.85_EN.md)
+[Project home](README.md) · [Current status](CURRENT_STATUS.md) · [English home](README_EN.md) · [English history library](HISTORY_EN.md) · [Chinese original public source](v1.85_ZH-TW.md) · [Current English design](v1.85_EN.md)
 
 This record makes the **scope and limits of the English translations visible to external researchers**. It is a content/inventory check, not a claim of legal certification, human professional translation review or passed numerical tests.
 
@@ -34,4 +34,4 @@ This record makes the **scope and limits of the English translations visible to 
 - Cite both the English translation and source-language Chinese chapter when making a technical claim that hinges on nuance.
 - Report discrepancies with the exact document, `R/#/NEW/G/D/Q/DPB` ID, relevant text, possible translation error and proposed correction using [GitHub Issues](../../issues).
 
-**Change policy:** The project’s visible bilingual title changed, but the existing GitHub repository slug remains untouched to preserve older links. The current connector cannot change repository administrative metadata.
+**Change policy:** The public bilingual title and GitHub repository slug now read `Honest-Autonomous-Agents-Embodied-Virtual-City` (Chinese: 誠實的自主智能體與具身虛擬城市). The old long GitHub path is historical; no requirement or test status changed.
