@@ -88,7 +88,7 @@ MAG 場源與受力媒介 → WORLD 物理結算
 - `APPROVED` = 已批准**設計原則**；`ENGINEERING_CANDIDATE`／`PROPOSED` = 工程候選；`NOT_RUN` = 未執行；`UNKNOWN` = 證據不足；`PAPER_CLOSED` = 紙面結案，非軟體驗證完成。
 - 對於 24-DPB，**恢復名稱不等於已完成生理模型**；模型參數、有效域、數值穩定性及物理閉環需將來驗證。不能把模擬代理當成已證明的真人生理、疼痛或意識。
 - 幻想元素場屬虛構世界規則，不宣稱真實世界已發現相同物理機制。
-- 先前的 [v1.78 公開協作草案與 Draft PR #1](../../pull/1) 可作為**歷史參考**；**當前入口是本頁的 v1.85 文件**。Historical v1.78 draft material is not the latest specification.
+- 先前的 [v1.78 公開協作草案 PR #1](../../pull/1) 目前是 **OPEN／DRAFT、尚未合併到 `main`** 的歷史提案（含 53 個候選文件變更）；它不能取代本頁的 v1.85 現行正式規格。Previous v1.78 PR #1 is **open, draft, and unmerged**; its proposals are not part of the current `main` baseline.
 
 ## English
 
