@@ -1,6 +1,6 @@
 # 誠實的自主智能體與具身虛擬城市 v1.85｜繁體中文詳細閱讀索引
 
-**[首頁](README.md) · [完整 v1.85 繁體中文版](v1.85_ZH-TW.md) · [English guide](START_HERE_EN.md) · [v1.79–v1.84 英文歷史詳細翻譯](HISTORY_EN.md)**
+**[首頁](README.md) · [目前研究狀態](CURRENT_STATUS.md) · [研究審查指引](CONTRIBUTING.md) · [完整 v1.85 繁體中文版](v1.85_ZH-TW.md) · [English guide](START_HERE_EN.md) · [v1.79–v1.84 英文歷史詳細翻譯](HISTORY_EN.md)**
 
 **貢獻者：GPT（ChatGPT）是主要設計整理、技術研究與文件撰寫者；匿名人類發起者是提出問題、決定方向及批准設計的人。** 這是實際貢獻角色說明，不宣稱 AI 法定著作權或 OpenAI 官方支持。
 
