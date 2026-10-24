@@ -2,7 +2,7 @@
 
 **誠實的自主智能體與具身虛擬城市** · Latest public design: **v1.85** · 2026-10-24
 
-[Repository home / 中文首頁](README.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
+[中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
 ## Start here: full documentation, not a short press summary
 
@@ -70,4 +70,4 @@ The older formal R-01–R-149 text survives through cross-references and histori
 
 Please [open a GitHub Issue](../../issues) citing a specific `R`, `#`, `NEW`, `D`, `Q` or `G` identifier, source location, reproducible/falsifiable scenario, expected behavior and scientific or technical evidence. Mark candidate changes as proposals, not approved new design.
 
-**New display title:** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The original long GitHub repository URL is intentionally unchanged; the connected GitHub file access does not include repository-name administration.
+**New display title:** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The repository now uses the concise slug `Honest-Autonomous-Agents-Embodied-Virtual-City`; older GitHub links may redirect to it. This naming change does not alter the v1.85 technical baseline.
