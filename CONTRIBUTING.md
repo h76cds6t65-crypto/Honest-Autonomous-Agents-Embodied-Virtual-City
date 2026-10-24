@@ -9,11 +9,12 @@
 
 我們歡迎物理、機器人、AI 架構、模擬系統、隱私治理、資料工程、語言翻譯及人文研究方面的具體意見。**不必先同意所有設計主張，反例尤其有價值。**
 
+**特殊注意：** `S01–S06` 在 v1.84 與 v1.85 被用於**不同的紙面情境**。討論驗收時請標記版本，例如 `v1.84/S03`，以免誤指。
+
 提交 GitHub Issue 時，請盡可能提供：
 
 1. **對應位置：** 文件路徑、版本、編號（例如 `DPB-19`、`R-153`、`Q07`、`#28`、`NEW-08`、`D14`、`G77`）及實際行號／段落。
 2. **問題分類：** 技術錯誤、缺少來源、歷史效力衝突、中英文語義不一致、驗收設計漏洞、合法資料與隱私問題，或新的工程候選。
-**特殊注意：** `S01–S06` 在 v1.84 與 v1.85 被用於**不同的紙面情境**。討論驗收時請標記版本，例如 `v1.84/S03`，以免誤指。
 3. **可檢查的理由：** 明確敘述錯誤、反例、數學推導、適用域、參考文獻、預期行為；無證據處標示 `UNKNOWN`。
 4. **候選修正：** 建議的新表述、假設、受影響的相鄰系統以及可能造成的副作用。允許只報問題而未提出解法。
 5. **狀態不要誤寫：** `APPROVED` 是人類已批准的設計，`PROPOSED` 是候選，`NOT_RUN` 代表測試尚未實際執行，`PAPER_CLOSED` 不是軟體驗證通過。
@@ -26,11 +27,12 @@
 
 We welcome grounded criticism from robotics, physics, AI, scientific modeling, virtual environments, privacy engineering, data governance, translation and humanities. **Counterexamples and disagreements are welcome**; contributors need not agree with the project's worldview.
 
+**Version-qualified test IDs:** `S01–S06` appear in both v1.84 and v1.85 with different meanings. Cite `v1.84/S03` or `v1.85/S03`, not bare `S03`.
+
 For a helpful issue or document review:
 
 1. **Cite the exact source:** filename, historical version, item identifier (`DPB-19`, `R-153`, `Q07`, `#28`, `NEW-08`, `D14`, `G77`) and source line/heading.
 2. **Classify the concern:** technical contradiction, missing evidence, outdated historical authority, Chinese–English translation drift, weak acceptance criteria, privacy/legal concern or a new engineering candidate.
-**Version-qualified test IDs:** `S01–S06` appear in both v1.84 and v1.85 with different meanings. Cite `v1.84/S03` or `v1.85/S03`, not bare `S03`.
 3. **Explain what is falsifiable:** scenario, counterexample, equations and units, evidence source, expected versus actual results, and uncertainty where data are absent.
 4. **Propose a narrow revision if possible:** what changes, what remains approved, adjacent requirements affected, and unwanted downstream effects. A well-grounded problem report **does not** require a complete solution.
 5. **Keep status claims factual:** `APPROVED` does not mean implemented; `PAPER_CLOSED` is not a software pass; `NOT_RUN` means there is no executed result.
