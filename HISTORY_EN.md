@@ -2,7 +2,7 @@
 
 **Project:** Honest Autonomous Agents & Embodied Virtual City — 誠實的自主智能體與具身虛擬城市
 
-[Repository home](README.md) · [English v1.85 full-scope document](v1.85_EN.md) · [English reading guide](START_HERE_EN.md) · [Translation coverage report](TRANSLATION_COVERAGE.md) · [Chinese cumulative v1.85 source](v1.85_ZH-TW.md)
+[Repository home](README.md) · [Current status](CURRENT_STATUS.md) · [English v1.85 full-scope document](v1.85_EN.md) · [English reading guide](START_HERE_EN.md) · [Translation coverage report](TRANSLATION_COVERAGE.md) · [Chinese cumulative v1.85 source](v1.85_ZH-TW.md)
 
 ## Why these six files exist
 
@@ -44,4 +44,4 @@ The [v1.85_EN.md](v1.85_EN.md) document already gives an extensive English techn
 
 **Principal technical production, synthesis, documentation and translation: GPT (ChatGPT; AI-assisted).** **Human originator:** anonymously proposed the initial issues, selected direction, reviewed and approved decisions. These are contribution credits, not a claim of legal AI authorship or any endorsement by OpenAI, Anthropic or DeepSeek. Translation quality and technical content require independent human and scientific review.
 
-**Name:** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The original GitHub repository slug is preserved to avoid breaking external references.
+**Name:** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The repository now uses the slug `Honest-Autonomous-Agents-Embodied-Virtual-City`; references to the old long URL are historical, not the current canonical address.
