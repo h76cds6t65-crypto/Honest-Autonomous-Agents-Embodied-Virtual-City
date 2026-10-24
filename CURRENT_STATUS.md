@@ -35,6 +35,8 @@
 | `UNKNOWN` / `NOT_CALIBRATED` | 無充分數據或校準 | Evidence or calibration unavailable |
 | `SUPERSEDED` | 後來批准的新決議取代舊說法，歷史仍保留 | Superseded, retained as historical evidence |
 
+**測試編號注意 / Test ID namespace:** v1.85 的跨模組測試使用 `S01–S20`；但歷史 v1.84 的三層學習測試也使用 `S01–S06`。引用時必須寫 **`v1.85/S01`** 或 **`v1.84/S01`** 並附來源版本，**不能把同名編號當同一測試，也不能多算通過數**。 / Historical versions reuse some S-numbers; always qualify test IDs by version.
+
 **歷史差異 / Historical example:** v1.82 still debated subjective death meaning, but v1.83 lets residents define it themselves. v1.84 lacked the complete 24-module name map, while v1.85 recovered candidate names; neither development means a physiological simulation has been tested.
 
 ## 3. 不可破壞的既有原則 / Existing boundaries
