@@ -2,7 +2,7 @@
 
 **Project:** Honest Autonomous Agents & Embodied Virtual City — 誠實的自主智能體與具身虛擬城市
 
-[Repository home](README.md) · [English v1.85 full-scope document](v1.85_EN.md) · [English reading guide](START_HERE_EN.md) · [Chinese cumulative v1.85 source](v1.85_ZH-TW.md)
+[Repository home](README.md) · [English v1.85 full-scope document](v1.85_EN.md) · [English reading guide](START_HERE_EN.md) · [Translation coverage report](TRANSLATION_COVERAGE.md) · [Chinese cumulative v1.85 source](v1.85_ZH-TW.md)
 
 ## Why these six files exist
 
