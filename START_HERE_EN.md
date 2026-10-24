@@ -1,6 +1,6 @@
-# Honest Autonomous Agent v1.85 — Detailed English Reading Guide
+# Honest Autonomous Agents & Embodied Virtual City v1.85 — Detailed English Reading Guide
 
-**[Repository home](README.md) · [Full-scope English v1.85](v1.85_EN.md) · [繁體中文詳細導覽](START_HERE_ZH-TW.md)**
+**[Full English home](README_EN.md) · [Full-scope English v1.85](v1.85_EN.md) · [six detailed historical translations](HISTORY_EN.md) · [繁體中文詳細導覽](START_HERE_ZH-TW.md)**
 
 **Contributor credits: GPT (ChatGPT) is the principal technical producer, design synthesizer and documentation drafter; an anonymous human originator asked the questions, set the research direction and approved design decisions.** This identifies contributions, not AI legal authorship or official OpenAI sponsorship.
 
