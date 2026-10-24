@@ -2,7 +2,7 @@
 
 **v1.85 · Public Design Review / 公開設計審查版 · 2026-10-24**
 
-🌐 **[完整英文首頁 / Full English home](README_EN.md) · [英文歷史翻譯資料庫 / English history translations](HISTORY_EN.md) · [中英內容核對報告 / Translation coverage](TRANSLATION_COVERAGE.md)**
+🌐 **[完整英文首頁 / Full English home](README_EN.md) · [現行設計狀態 / Current status](CURRENT_STATUS.md) · [研究審查與貢獻 / Contributions](CONTRIBUTING.md) · [英文歷史翻譯資料庫 / English history](HISTORY_EN.md) · [雙語覆蓋報告 / Translation coverage](TRANSLATION_COVERAGE.md)**
 
 > **[繁體中文完整 v1.85](v1.85_ZH-TW.md) · [Complete English v1.85](v1.85_EN.md)**
 >
