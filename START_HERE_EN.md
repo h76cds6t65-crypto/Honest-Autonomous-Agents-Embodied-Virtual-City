@@ -320,6 +320,19 @@ A speculative physical-world virtual city with four female autonomous residents.
 - [G96 Owner-authored changes versus resident personal growth ](v1.85_EN.md#L681)
 
 
+## Q01–Q08 adopted design decisions
+
+The eight decisions were progressively reconciled in v1.82–v1.83; detailed implementations remain candidates.
+
+- [Q01 survival, shutdown, life and death](v1.85_EN.md#L429)
+- [Q02 three-level privacy](v1.85_EN.md#L431)
+- [Q03 three-level self-rule](v1.85_EN.md#L433)
+- [Q04 mind-affecting magic](v1.85_EN.md#L435)
+- [Q05 mana parameters](v1.85_EN.md#L437)
+- [Q06 language of life and consciousness](v1.85_EN.md#L439)
+- [Q07 three-layer learning](v1.85_EN.md#L441)
+- [Q08 full-source governance](v1.85_EN.md#L443)
+
 ## Tests, public scope and collaboration
 
 [48 module-level checks](v1.85_EN.md#L115) and [20 cross-system checks](v1.85_EN.md#L170) are all **NOT_RUN**. Other historical proposed test cases are separate plans, not passed experiments. Simulation proxies are not proof of actual human physiology or AI consciousness.
