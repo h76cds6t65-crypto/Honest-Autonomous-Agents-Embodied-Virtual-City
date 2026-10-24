@@ -1,10 +1,14 @@
-# 誠實的智能體 · Honest Autonomous Agent
+# 誠實的自主智能體與具身虛擬城市 · Honest Autonomous Agents & Embodied Virtual City
 
 **v1.85 · Public Design Review / 公開設計審查版 · 2026-10-24**
+
+🌐 **[完整英文首頁 / Full English home](README_EN.md) · [英文歷史翻譯資料庫 / English history translations](HISTORY_EN.md)**
 
 > **[繁體中文完整 v1.85](v1.85_ZH-TW.md) · [Complete English v1.85](v1.85_EN.md)**
 >
 > **[繁體中文逐項導覽（202 個直達連結）](START_HERE_ZH-TW.md) · [English item-by-item guide (202 deep links)](START_HERE_EN.md)**
+>
+> **[v1.79–v1.84 詳細英文歷史譯本 / Six detailed English historical translations](HISTORY_EN.md)**
 
 這是一個**尚在規劃、未開始實作**的自主智能體／物理因果虛擬城市研究。四位女性虛擬居民擁有各自的身份、私有記憶、可選身體形態、行動意願與拒絕權。設計涵蓋世界物理、幻想元素場、24-DPB 感官／身體模型、長期記憶、自主技能學習與居民自治。
 
