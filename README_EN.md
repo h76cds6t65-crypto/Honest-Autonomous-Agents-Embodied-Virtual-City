@@ -2,7 +2,7 @@
 
 **誠實的自主智能體與具身虛擬城市** · Latest public design: **v1.85** · 2026-10-24
 
-[Repository home / 中文首頁](README.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md)
+[Repository home / 中文首頁](README.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
 ## Start here: full documentation, not a short press summary
 
