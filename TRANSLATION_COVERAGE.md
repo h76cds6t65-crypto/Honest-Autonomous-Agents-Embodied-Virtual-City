@@ -1,5 +1,10 @@
 # Translation Coverage and Historical Equivalence Review
 
+> **最新研究公開版 / Latest public research release: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+>
+> v2.09 documents current **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
+
+
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City · Public review v1.85 · 2026-10-24**
 
 [Project home](README.md) · [Current status](CURRENT_STATUS.md) · [English home](README_EN.md) · [English history library](HISTORY_EN.md) · [Chinese original public source](v1.85_ZH-TW.md) · [Current English design](v1.85_EN.md)

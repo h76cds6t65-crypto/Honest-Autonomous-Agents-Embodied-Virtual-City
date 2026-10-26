@@ -1,5 +1,10 @@
 # 誠實的自主智能體與具身虛擬城市 · Honest Autonomous Agents & Embodied Virtual City
 
+> **最新研究公開版 / Latest public research release: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+>
+> v2.09 documents current **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
+
+
 **v1.85 · Public Design Review / 公開設計審查版 · 2026-10-24**
 
 🌐 **[完整英文首頁 / Full English home](README_EN.md) · [現行設計狀態 / Current status](CURRENT_STATUS.md) · [研究審查與貢獻 / Contributions](CONTRIBUTING.md) · [英文歷史翻譯資料庫 / English history](HISTORY_EN.md) · [雙語覆蓋報告 / Translation coverage](TRANSLATION_COVERAGE.md)**
