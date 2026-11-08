@@ -1,8 +1,12 @@
 # 現行設計狀態 / Current Design Status
 
-> **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
+> **最新公開研究 / Latest public research update [v2.35 繁體中文](docs/v2.35/README_ZH-TW.md) · [v2.35 English](docs/v2.35/README_EN.md)** (2026-11-08)
 >
-> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。W34-01 單次碰撞已通過本機限定範圍驗收。其餘 W34 及原版 65D 的 C32-03、08 仍待跑。 / v2.34 starts with one-room collision commits, retries and recovery, followed by a simulated day. W34-01 passed with local scope. The remaining W34 tests and C32-03/C32-08 are NOT_RUN.
+> W34-01 至 10 已完成一房間及模擬日的本機限定範圍驗收。原版 65D 的 C32-03、08 通過 6 秒碰撞與去重驗收。C32-04 至 06、09／10 仍待執行。
+>
+> W34-01 through W34-10 passed the scoped local one-room and simulated-day checks. C32-03 and C32-08 passed the six-second original-model collision and deduplication checks. C32-04 through C32-06, C32-09, and C32-10 remain pending.
+>
+> **v2.34 歷史驗收規格 / Earlier v2.34 acceptance criteria** [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)
 >
 > **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
 >
@@ -10,25 +14,26 @@
 
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**v2.34 development specification · 2026-11-08 · P-02 isolated research**
+**v2.35 acceptance handoff · 2026-11-08 · P-02 isolated research**
 
 [首頁 Home](README.md) · [English home](README_EN.md) · [中文 v1.85](v1.85_ZH-TW.md) · [English v1.85](v1.85_EN.md) · [English history](HISTORY_EN.md)
 
-## v2.34 目前開發狀態 / Current development status
+## v2.35 目前開發狀態 / Current development status
 
-| 研究 / Research | 狀態 / Status |
+| 研究 / Research | 狀態與範圍 / Status and scope |
 | --- | --- |
-| 一房間單次碰撞 / One-room single collision | W34-01 · PASS_WITH_SCOPE（本機 15/15 / 15 of 15 local checks） |
-| 重送與故障恢復 / Replay and fault recovery | W34-02–07 · NOT_RUN |
-| 一個模擬日及停機留痕 / One simulated day and downtime records | W34-08–10 · NOT_RUN |
-| 原版 65D 單次碰撞與去重 / Original 65-state collision and deduplication | C32-03 and C32-08 · NOT_RUN |
-| 原版無碰撞、ATP、氧與 24 DPB / No-collision baseline, ATP, oxygen and 24-DPB work | 離線證據，按各自場景與範圍 / Scoped offline evidence |
+| 一房間提交、恢復與觀察 / One-room commit, recovery, and observation | W34-01–07 · `PASS_WITH_SCOPE`。固定形態替身、單機 SQLite / Fixed-form stand-in and single-host SQLite. |
+| 模擬日與停機 / Simulated day and downtime | W34-08–10 · `PASS_WITH_SCOPE`。86,400 秒模擬時間，三條路徑各自保留歷程 / 86,400 simulated seconds with each of the three run histories retained. |
+| 原版 65D 單次碰撞 / Original 65-state model single collision | C32-03 · `PASS_WITH_SCOPE` · 37/37。一個 S 型靜息代理，6 秒 / One S-form resting proxy over six seconds. |
+| 原版 65D 碰撞去重 / Original 65-state collision deduplication | C32-08 · `PASS_WITH_SCOPE` · 32/32。單次、依序重送及四寫入者競爭各只施加一次 / One application in each of the single, serial-retry, and four-writer contention cases. |
+| 原版 65D 長時與真實中斷 / Original-model long runs and process interruption | C32-04–06、C32-09、C32-10 · `NOT_RUN` |
+| 原版無碰撞、ATP、氧與 24 DPB / No-collision baseline, ATP, oxygen, and 24-DPB work | 依各自的離線證據範圍 / Scoped offline evidence per research line. |
 
-**W34-01 本機驗收**　2026 年 11 月 8 日，在單機 SQLite 固定替身情境，第 120 tick 留下一次持久碰撞與一筆有來源的合成觀察。替身衝量為 −20 N·s，牆與支座為 +20 N·s，接觸耗散為 10 J。正常重開後可查回原回執與觀察來源。
+C32-03 的純原方程重現阻尼熱缺口，列 `FAIL_EXPECTED`。絕對化學能座標的首次積分為 `FAIL`。本版研究頁分列這兩項與外掛阻尼熱的通過範圍。
 
-**W34-01 local acceptance**　On November 8, 2026, the fixed stand-in in a single-host SQLite fixture recorded one durable collision at tick 120 and one sourced synthetic observation. The stand-in impulse was −20 N·s, the wall and support impulse was +20 N·s, and contact dissipation was 10 J. A normal reopen recovered the original receipt and observation provenance.
+C32-03 records the original equations' damping-heat deficit as `FAIL_EXPECTED` and the first absolute-coordinate attempt as `FAIL`. The research pages distinguish both results from the scoped pass with external damping heat.
 
-[v2.34 開發順序與驗收](docs/v2.34/README_ZH-TW.md) · [v2.34 Development sequence and acceptance](docs/v2.34/README_EN.md)
+[v2.35 中文驗收交接](docs/v2.35/README_ZH-TW.md) · [v2.35 English handoff](docs/v2.35/README_EN.md) · [v2.34 歷史規格](docs/v2.34/README_ZH-TW.md)
 
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 

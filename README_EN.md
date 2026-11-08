@@ -1,15 +1,19 @@
 # 自成之境 · Honest Autonomous Agents & Embodied Virtual City
 
-> **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
+> **最新公開研究 / Latest public research update [v2.35 繁體中文](docs/v2.35/README_ZH-TW.md) · [v2.35 English](docs/v2.35/README_EN.md)** (2026-11-08)
 >
-> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。W34-01 單次碰撞已通過本機限定範圍驗收。其餘 W34 及原版 65D 的 C32-03、08 仍待跑。 / v2.34 starts with one-room collision commits, retries and recovery, followed by a simulated day. W34-01 passed with local scope. The remaining W34 tests and C32-03/C32-08 are NOT_RUN.
+> W34-01 至 10 已完成一房間及模擬日的本機限定範圍驗收。原版 65D 的 C32-03、08 通過 6 秒碰撞與去重驗收。C32-04 至 06、09／10 仍待執行。
+>
+> W34-01 through W34-10 passed the scoped local one-room and simulated-day checks. C32-03 and C32-08 passed the six-second original-model collision and deduplication checks. C32-04 through C32-06, C32-09, and C32-10 remain pending.
+>
+> **v2.34 歷史驗收規格 / Earlier v2.34 acceptance criteria** [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)
 >
 > **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
 >
 > v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
-**自成之境** · v2.34 development specification · 2026-11-08 (v1.85 remains the historical public design baseline)
+**自成之境** · v2.35 acceptance handoff · 2026-11-08 (v1.85 remains the historical public design baseline)
 
 [中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
