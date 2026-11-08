@@ -1,7 +1,7 @@
 # 研究審查與貢獻 / Research Review & Contributions
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**Latest public baseline / 最新公開規格:** [v1.85](CURRENT_STATUS.md)
+**最新公開研究規格 / Latest public research specification** [v2.34](CURRENT_STATUS.md)
 
 [中文詳細索引](START_HERE_ZH-TW.md) · [English detailed guide](START_HERE_EN.md) · [English history](HISTORY_EN.md) · [GitHub Issues](../../issues)
 
@@ -45,4 +45,4 @@ Public discussion, translations and proposed pull requests **do not automaticall
 
 **GPT（ChatGPT）** 是主要 AI 輔助技術設計整理、文件製作與翻譯協作者；**匿名人類發起者**提出核心問題與研究方向、審查並批准決議。這是透明的貢獻角色描述，不表示 AI 已獲法定作者地位，亦不表示 OpenAI、Anthropic 或 DeepSeek 官方支持。
 
-All current 24-DPB and cross-system acceptance cases remain **NOT_RUN**. Fictional magic effects, body simulation proxies and AI dialogue are not empirical proof of real magic, human-equivalent neurophysiology or subjective consciousness. Independent verification is needed.
+The v1.85 paper matrix has 48 DPB and 20 cross-system cases marked **NOT_RUN**. The [v2.34 status](CURRENT_STATUS.md) lists newer candidate tests separately from scoped offline evidence. Fictional magic effects, body simulation proxies and AI dialogue are not empirical proof of real magic, human-equivalent neurophysiology or subjective consciousness. Independent verification is needed.

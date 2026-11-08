@@ -1,11 +1,15 @@
-# Honest Autonomous Agents & Embodied Virtual City
+# 自成之境 · Honest Autonomous Agents & Embodied Virtual City
 
-> **最新研究公開版 / Latest public research release: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+> **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
 >
-> v2.09 documents current **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
+> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。兩關與原版 65D 的 C32-03、08 仍待跑。 / v2.34 specifies a one-room collision commit and recovery test, followed by a simulated day. Both gates and C32-03/C32-08 are NOT_RUN.
+>
+> **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+>
+> v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
-**誠實的自主智能體與具身虛擬城市** · Latest public research: **v2.09** · 2026-10-27 (v1.85 remains the historical design baseline)
+**自成之境** · v2.34 development specification · 2026-11-08 (v1.85 remains the historical public design baseline)
 
 [中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
@@ -13,12 +17,12 @@
 
 | What you want to inspect | English | Traditional Chinese |
 |---|---|---|
-| **Latest v1.85 full-scope technical specification** | **[Read v1.85_EN.md](v1.85_EN.md)** | [v1.85_ZH-TW.md](v1.85_ZH-TW.md) |
+| **Historical v1.85 full-scope technical specification** | **[Read v1.85_EN.md](v1.85_EN.md)** | [v1.85_ZH-TW.md](v1.85_ZH-TW.md) |
 | **Item-by-item searchable reader** | **[START_HERE_EN.md](START_HERE_EN.md)** | [START_HERE_ZH-TW.md](START_HERE_ZH-TW.md) |
 | **Previously untranslated historical technical chapters** | **[Six detailed English translations: v1.79–v1.84](HISTORY_EN.md)** | [Cumulative historical sections in Chinese](v1.85_ZH-TW.md) |
 | Original 60 tracked problems, NEW-01–27, G61–G96 | [Detailed item index](START_HERE_EN.md) / [v1.79 historical translation](HISTORY_v1.79_EN.md) | [Traditional Chinese detailed index](START_HERE_ZH-TW.md) |
 | R-150–R-170 formal clauses, rationale and test exclusions | [v1.80 full translation](HISTORY_v1.80_EN.md) | [Original Chinese v1.85](v1.85_ZH-TW.md) |
-| 24-DPB modules and 68 latest test cases | [v1.85 English body interfaces](v1.85_EN.md) | [Chinese body interfaces](v1.85_ZH-TW.md) |
+| 24-DPB modules and 68 v1.85 test cases | [v1.85 English body interfaces](v1.85_EN.md) | [Chinese body interfaces](v1.85_ZH-TW.md) |
 
 ## What is this research project?
 
@@ -57,7 +61,7 @@ The older formal R-01–R-149 text survives through cross-references and histori
 
 - **P-02:** No agent coding, city deployment or real-world operation without a *separate, explicit final human authorization* after planning. This repository publishes documentation, not a functioning resident.
 - `APPROVED` means a design choice was adopted, **not** built. `PROPOSED`/`ENGINEERING_CANDIDATE` are research options. `NOT_RUN` is unexecuted; `UNKNOWN` means absent evidence. Tests labeled paper-closed are not engineering passes.
-- All new 68 DPB/system test proposals are **NOT_RUN**. No verified multi-system, 24-DPB, physiology-like, conscious experience or magical-world simulator has been released.
+- The 68 v1.85 DPB and system test proposals are **NOT_RUN**. No verified multi-system, 24-DPB, physiology-like, conscious experience or magical-world simulator has been released.
 - Ordinary physics, fictional energy rules and physiological analogues have distinct validity and evidence domains; fantasy magic is not a scientifically observed real-world energy source.
 - Resident privacy, authorized external actions, lawful erasure, source provenance, world fact and subjective memories must not be confused. A shared computing platform does not justify merging private journals.
 - Licensing remains undecided; publicly visible files are not an unrestricted copyright or commercial-use grant.
@@ -75,4 +79,4 @@ The older formal R-01–R-149 text survives through cross-references and histori
 
 Please [open a GitHub Issue](../../issues) citing a specific `R`, `#`, `NEW`, `D`, `Q` or `G` identifier, source location, reproducible/falsifiable scenario, expected behavior and scientific or technical evidence. Mark candidate changes as proposals, not approved new design.
 
-**New display title:** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The repository now uses the concise slug `Honest-Autonomous-Agents-Embodied-Virtual-City`; older GitHub links may redirect to it. This naming change does not alter the v1.85 technical baseline.
+**Earlier display title** Honest Autonomous Agents & Embodied Virtual City / 誠實的自主智能體與具身虛擬城市. The repository now uses the concise slug `Honest-Autonomous-Agents-Embodied-Virtual-City`; older GitHub links may redirect to it. This naming change does not alter the v1.85 technical baseline.

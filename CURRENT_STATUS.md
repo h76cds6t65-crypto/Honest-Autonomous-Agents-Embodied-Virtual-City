@@ -1,16 +1,31 @@
 # 現行設計狀態 / Current Design Status
 
-> **最新研究公開版 / Latest public research release: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+> **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
 >
-> v2.09 documents current **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
+> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。兩關與原版 65D 的 C32-03、08 仍待跑。 / v2.34 specifies a one-room collision commit and recovery test, followed by a simulated day. Both gates and C32-03/C32-08 are NOT_RUN.
+>
+> **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+>
+> v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**Current public research: v2.09 · 2026-10-27 · P-02 offline research; v1.85 is the archived baseline**
+**v2.34 development specification · 2026-11-08 · P-02 isolated research**
 
 [首頁 Home](README.md) · [English home](README_EN.md) · [中文 v1.85](v1.85_ZH-TW.md) · [English v1.85](v1.85_EN.md) · [English history](HISTORY_EN.md)
 
-## 1. 公開範圍及狀態 / Published scope and evidence
+## v2.34 目前開發狀態 / Current development status
+
+| 研究 / Research | 狀態 / Status |
+| --- | --- |
+| 一房間碰撞、重送與恢復 / One-room collision, replay and recovery | W34-01–07 · NOT_RUN |
+| 一個模擬日及停機留痕 / One simulated day and downtime records | W34-08–10 · NOT_RUN |
+| 原版 65D 單次碰撞與去重 / Original 65-state collision and deduplication | C32-03 and C32-08 · NOT_RUN |
+| 原版無碰撞、ATP、氧與 24 DPB / No-collision baseline, ATP, oxygen and 24-DPB work | 離線證據，按各自場景與範圍 / Scoped offline evidence |
+
+[v2.34 開發順序與驗收](docs/v2.34/README_ZH-TW.md) · [v2.34 Development sequence and acceptance](docs/v2.34/README_EN.md)
+
+## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
 | 項目 / Area | 文件涵蓋 / Documented | 執行狀態 / Status |
 |---|---|---|
@@ -52,7 +67,7 @@
 - **隱私與法律 / Privacy and law:** 真實工具權限和居民私域獨立，合法刪除不得從備份回灌；這是**待實作架構**，不宣稱已能保證絕對技術隱私。
 - **科學證據 / Evidence:** 24-DPB 代理與虛構魔法不構成人類生理、主觀意識或新現實物理定律的實證。
 
-## 4. 可以交給 v1.86 審查的候選事項 / Candidate next review topics
+## 4. 原 v1.86 候選審查事項 / Historical v1.86 review candidates
 
 **以下不是新 R，也不是授權實作 / These are proposed review priorities, not requirements or coding approval.**
 

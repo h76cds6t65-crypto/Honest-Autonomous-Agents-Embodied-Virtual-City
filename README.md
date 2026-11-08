@@ -1,11 +1,15 @@
-# 誠實的自主智能體與具身虛擬城市 · Honest Autonomous Agents & Embodied Virtual City
+# 自成之境 · Honest Autonomous Agents & Embodied Virtual City
 
-> **最新研究公開版 / Latest public research release: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+> **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
 >
-> v2.09 documents current **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
+> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。兩關與原版 65D 的 C32-03、08 仍待跑。 / v2.34 specifies a one-room collision commit and recovery test, followed by a simulated day. Both gates and C32-03/C32-08 are NOT_RUN.
+>
+> **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
+>
+> v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
-**v1.85 · Public Design Review / 公開設計審查版 · 2026-10-24**
+**v1.85 · Historical Public Design Review / 歷史公開設計審查版 · 2026-10-24**
 
 🌐 **[完整英文首頁 / Full English home](README_EN.md) · [現行設計狀態 / Current status](CURRENT_STATUS.md) · [研究審查與貢獻 / Contributions](CONTRIBUTING.md) · [英文歷史翻譯資料庫 / English history](HISTORY_EN.md) · [雙語覆蓋報告 / Translation coverage](TRANSLATION_COVERAGE.md)**
 
@@ -15,9 +19,9 @@
 >
 > **[v1.79–v1.84 詳細英文歷史譯本 / Six detailed English historical translations](HISTORY_EN.md)**
 
-這是一個**尚在規劃、未開始實作**的自主智能體／物理因果虛擬城市研究。四位女性虛擬居民擁有各自的身份、私有記憶、可選身體形態、行動意願與拒絕權。設計涵蓋世界物理、幻想元素場、24-DPB 感官／身體模型、長期記憶、自主技能學習與居民自治。
+這是一個自主數位居民與具身世界研究計畫。**正式居民系統仍在規劃。**四位女性虛擬居民擁有各自的身份、私有記憶、可選身體形態、行動意願與拒絕權。設計涵蓋世界物理、幻想元素場、24-DPB 感官／身體模型、長期記憶、自主技能學習與居民自治。
 
-**This is an independent, documentation-only research/design project**, not a deployed virtual city or functioning autonomous agent. The complete-scope technical documentation is available in both Traditional Chinese and English.
+**This repository publishes independent research and design documentation.** Official resident implementation and deployment remain subject to P-02. The complete-scope technical documentation is available in both Traditional Chinese and English.
 
 ## 先從這裡開始 · START HERE
 
@@ -52,7 +56,7 @@ These are **transparent contribution credits**, not a claim that AI necessarily 
 | **候選盲點 / Candidate gaps** | **G61～G96，全部 36 項** | **G61–G96, all 36 entries** | **候選問題，不是已批准需求** |
 | **歷史漂移 / Drift records** | D01～D20 | D01–D20 | 已修正、部分待決與工程缺口要分開 |
 | **身體與感官 / 24-DPB** | 24 張詳細接口規格、24 筆歷史映射 | 24 detailed interface cards, legacy mapping | 24 名稱已恢復，但 2 筆舊號多義待確認 |
-| **最新紙面驗收 / Latest paper checks** | 48 個逐模組＋20 個跨系統 | 48 module + 20 system checks | **68 項全部 NOT_RUN，不是已通過** |
+| **v1.85 紙面驗收 / v1.85 paper checks** | 48 個逐模組＋20 個跨系統 | 48 module + 20 system checks | **68 項全部 NOT_RUN，不是已通過** |
 | **版本沿革 / Historical evolution** | v1.84～v1.79 累積章節 | v1.84–v1.79 detailed crosswalk | 歷史敘述以 v1.85 最新效力為準 |
 
 > **來源限制 / Source limit:** 公開版不包含原始數百頁私人全文。R-01～149 的完整逐字要求不能僅依這裡的索引取代。The original protected master is not represented as a fully published line-by-line document.
@@ -89,7 +93,7 @@ MAG 場源與受力媒介 → WORLD 物理結算
 ## 進度與科學界線 · Status and limitations
 
 - **P-02 生效。** 未經人類專案發起者在完整規劃後**另行明確批准**，不進行自主智能體的編程、部署或現實世界動作。**P-02 remains active: no agent implementation or deployment authorized.**
-- 所有最新 **68 項** DPB／跨系統驗收均為 `NOT_RUN`。此前其他版本的紙面測試也不能當作實測通過。
+- v1.85 的 **68 項** DPB／跨系統驗收均為 `NOT_RUN`。此前其他版本的紙面測試也不能當作實測通過。
 - `APPROVED` = 已批准**設計原則**；`ENGINEERING_CANDIDATE`／`PROPOSED` = 工程候選；`NOT_RUN` = 未執行；`UNKNOWN` = 證據不足；`PAPER_CLOSED` = 紙面結案，非軟體驗證完成。
 - 對於 24-DPB，**恢復名稱不等於已完成生理模型**；模型參數、有效域、數值穩定性及物理閉環需將來驗證。不能把模擬代理當成已證明的真人生理、疼痛或意識。
 - 幻想元素場屬虛構世界規則，不宣稱真實世界已發現相同物理機制。
@@ -97,7 +101,7 @@ MAG 場源與受力媒介 → WORLD 物理結算
 
 ## English
 
-The **two links at the top of this page** are the latest public v1.85 documents. International readers should start with the [English annotated guide](START_HERE_EN.md), then use its direct links to the [full-scope English document](v1.85_EN.md). Each numbered design item is linked to its actual source line, including all 60 core problems, NEW-01–27, G61–G96, D01–D20, 24 DPB modules and R-150–R-170.
+The v1.85 links above lead to the historical public design documents. International readers should start with the [English annotated guide](START_HERE_EN.md), then use its direct links to the [full-scope English document](v1.85_EN.md). Each numbered design item is linked to its actual source line, including all 60 core problems, NEW-01–27, G61–G96, D01–D20, 24 DPB modules and R-150–R-170.
 
 Four residents are designed to learn through real simulated experience rather than a single life-scoring function. Their interpretations of death and self-governance are not prescribed by the engineers. Their sensory and bodily analogues obey a separate WORLD physics authority, and fictional magic has traceable force paths. External operations remain subject to permission and law. **This is documentation, not a claim of execution.**
 
@@ -113,4 +117,4 @@ External contributors are welcome to open [Issues](../../issues) identifying an 
 
 ---
 
-**主要製作 / Principal GPT drafting contributor:** GPT (ChatGPT) · **提問者／決策者 / Human questioner & decision authority:** Anonymous human project originator · **Latest public design:** v1.85.
+**主要製作 / Principal GPT drafting contributor:** GPT (ChatGPT) · **提問者／決策者 / Human questioner & decision authority:** Anonymous human project originator · **Historical design baseline** v1.85.
