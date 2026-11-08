@@ -2,7 +2,7 @@
 
 > **最新公開研究規格 / Latest public research specification [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)** (2026-11-08)
 >
-> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。兩關與原版 65D 的 C32-03、08 仍待跑。 / v2.34 specifies a one-room collision commit and recovery test, followed by a simulated day. Both gates and C32-03/C32-08 are NOT_RUN.
+> v2.34 先驗收一房間碰撞的提交、重送與恢復，再驗一個模擬日。W34-01 單次碰撞已通過本機限定範圍驗收。其餘 W34 及原版 65D 的 C32-03、08 仍待跑。 / v2.34 starts with one-room collision commits, retries and recovery, followed by a simulated day. W34-01 passed with local scope. The remaining W34 tests and C32-03/C32-08 are NOT_RUN.
 >
 > **歷史離線研究 / Earlier offline research: [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md)** (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
 >

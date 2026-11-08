@@ -10,7 +10,7 @@ Start with one room and a fixed-form synthetic stand-in. Verify durable collisio
 
 | Item | Minimum acceptance evidence | Status |
 | --- | --- | --- |
-| W34-01 through 07 Single collision and recovery | One physical effect and one sourced observation on a normal commit. An identical retry returns the original receipt. Conflicting content leaves the world intact. Recover and reconcile crashes before and after commit and before memory projection. An unobserved event creates no first-person memory. | Candidate specification · NOT_RUN |
+| W34-01 through 07 Single collision and recovery | One physical effect and one sourced observation on a normal commit. An identical retry returns the original receipt. Conflicting content leaves the world intact. Recover and reconcile crashes before and after commit and before memory projection. An unobserved event creates no first-person memory. | W34-01 · PASS_WITH_SCOPE (15 of 15 local checks). W34-02 through 07 · NOT_RUN |
 | W34-08 through 10 One simulated day | The world advances by 86,400 simulated seconds. Wall-clock downtime has a separate record. The uninterrupted and recovered runs agree on final physical state, collision count, ledger and observations. | Candidate specification · NOT_RUN |
 | C32-03 Original 65-state model single collision | Pin original source, initial state, environment and tolerances. Segment the solver exactly at the event and compare with a no-collision run. Check original inertia, local impulse and accounting. | NOT_RUN |
 | C32-08 Original 65-state model deduplication | Replay through the same original-model adapter. Check the numerical trajectory, receipt and effect count for one state jump. | NOT_RUN |
@@ -31,7 +31,7 @@ The authoritative commit persists the world revision, event receipt and observat
 | Oxygen transport | A candidate for partial pressure, carrying capacity and diffusion improved distribution in the reported paired 72-hour resting runs. Some forms still showed delayed short-term recovery after oxygen was restored. Status is PARTIAL. |
 | Code and 24 body subsystems | The refactor preserved 78 sampled trajectories, 3,024 derivative comparisons and 23 existing output files bit for bit. Organ integration and calibration have separate acceptance requirements. |
 
-These are summaries of the offline evidence recorded in v2.33. The original experiments and outputs have their own archive scope. This update publishes research documentation. GitHub-hosted CI and W34 are pending. Historical unverified counts retain their evidence classification.
+These are summaries of the offline evidence recorded in v2.33. The original experiments and outputs have their own archive scope. See the [current status](../../CURRENT_STATUS.md) for the local W34-01 single-collision result. The remaining W34 tests and GitHub-hosted CI are pending. Historical unverified counts retain their evidence classification.
 
 ## Further body and world research
 
