@@ -4,11 +4,12 @@
 
 ## 從這裡開始
 
-- [v2.35 驗收交接](docs/v2.35/README_ZH-TW.md) · [English handoff](docs/v2.35/README_EN.md) · [v2.34 歷史驗收規格](docs/v2.34/README_ZH-TW.md)
+- [v2.36 研究基線與開發交接](docs/v2.36/README_ZH-TW.md) · [English v2.36](docs/v2.36/README_EN.md)
+- [v2.35 驗收交接](docs/v2.35/README_ZH-TW.md) · [v2.34 歷史驗收規格](docs/v2.34/README_ZH-TW.md)
 - [現行公開狀態](CURRENT_STATUS.md) · [代號表](GLOSSARY.md) · [素材逐項清單](ASSETS.md)
 - [v2.09 研究與驗收](docs/v2.09/README_ZH-TW.md) · [v1.85 設計原稿](v1.85_ZH-TW.md) · [既有完整首頁](https://github.com/h76cds6t65-crypto/Honest-Autonomous-Agents-Embodied-Virtual-City/blob/8ad31b97af3001fd8ece0bdb2449daf287333237/README.md)
 
-一房間的碰撞提交、重送、恢復與模擬日已完成本機限定範圍驗收。原版 65D 的短時單次碰撞與去重另有通過紀錄。長時碰撞後的生理與 65D 提交前後的中斷依各自規格待驗。P-02 下的工程試驗使用隔離的合成替身，正式居民依既有批准邊界接續。
+一房間的碰撞提交、重送、恢復與模擬日已完成本機限定範圍驗收。原版 65D 已驗碰撞後 1／24／72 小時、提交前後中斷、低氧與熱帳、求解器及固定三型。C32-14 保留收斂通過範圍，原掃描與後續核對整體皆為 FAIL。下一項 C32-16 對照翼根和魚尾根部受力。P-02 下的工程試驗使用隔離代理，正式居民依既有批准條件接續。
 
 ## 公開範圍與授權
 
@@ -18,6 +19,6 @@ GitHub 公開庫可依平台條款在 GitHub 內瀏覽與 fork。超出該條款
 
 ## English
 
-自成之境 studies autonomous digital residents in a causally tracked simulated world. The local one-room tests cover collision commits, retries, recovery, and a simulated day. The original 65-state model has separate scoped results for a short collision and event deduplication. [English handoff](docs/v2.35/README_EN.md) · [Contribution guide](CONTRIBUTING.md)
+自成之境 studies autonomous digital residents in a causally tracked simulated world. The local one-room tests cover collision commits, retries, recovery, and a simulated day. The original 65-state model has scoped results for collision accounting, recovery, loads, solver comparison, and fixed-form validity. C32-14 retains its convergence evidence and overall FAIL. [English v2.36 handoff](docs/v2.36/README_EN.md) · [Contribution guide](CONTRIBUTING.md)
 
 GitHub's terms allow viewing and forking public repositories through the service. Open-source reuse beyond those terms requires an applicable license or another legal basis. Asset rights are tracked separately. [GitHub licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)

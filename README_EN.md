@@ -1,10 +1,12 @@
 # 自成之境 · Honest Autonomous Agents & Embodied Virtual City
 
-> **最新公開研究 / Latest public research update [v2.35 繁體中文](docs/v2.35/README_ZH-TW.md) · [v2.35 English](docs/v2.35/README_EN.md)** (2026-11-08)
+> **最新公開研究 / Latest public research [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md)** (2026-11-09)
 >
-> W34-01 至 10 已完成一房間及模擬日的本機限定範圍驗收。原版 65D 的 C32-03、08 通過 6 秒碰撞與去重驗收。C32-04 至 06、09／10 仍待執行。
+> 原版 65D 已有長時、事件中斷、低氧、熱帳、求解器與固定三型的限定範圍驗收。C32-14 的整體判定為 FAIL，保留通過範圍及反例。下一項為 C32-16。
 >
-> W34-01 through W34-10 passed the scoped local one-room and simulated-day checks. C32-03 and C32-08 passed the six-second original-model collision and deduplication checks. C32-04 through C32-06, C32-09, and C32-10 remain pending.
+> The original 65-state model has scoped evidence for long runs, process interruption, hypoxia, heat accounting, solver comparison, and three fixed forms. C32-14 retains its overall FAIL alongside the passing comparisons and counterexamples. C32-16 is next.
+>
+> **v2.35 歷史驗收交接 / Earlier v2.35 acceptance handoff** [繁體中文](docs/v2.35/README_ZH-TW.md) · [English](docs/v2.35/README_EN.md)
 >
 > **v2.34 歷史驗收規格 / Earlier v2.34 acceptance criteria** [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)
 >
@@ -13,7 +15,7 @@
 > v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
-**自成之境** · v2.35 acceptance handoff · 2026-11-08 (v1.85 remains the historical public design baseline)
+**自成之境** · v2.36 research baseline and development handoff · 2026-11-09 (v1.85 remains the historical public design baseline)
 
 [中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 

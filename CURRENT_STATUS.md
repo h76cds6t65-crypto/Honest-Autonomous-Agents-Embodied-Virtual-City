@@ -1,10 +1,12 @@
 # 現行設計狀態 / Current Design Status
 
-> **最新公開研究 / Latest public research update [v2.35 繁體中文](docs/v2.35/README_ZH-TW.md) · [v2.35 English](docs/v2.35/README_EN.md)** (2026-11-08)
+> **最新公開研究 / Latest public research [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md)** (2026-11-09)
 >
-> W34-01 至 10 已完成一房間及模擬日的本機限定範圍驗收。原版 65D 的 C32-03、08 通過 6 秒碰撞與去重驗收。C32-04 至 06、09／10 仍待執行。
+> 原版 65D 已有長時、事件中斷、低氧、熱帳、求解器與固定三型的限定範圍驗收。C32-14 的整體判定為 FAIL，保留通過範圍及反例。下一項為 C32-16。
 >
-> W34-01 through W34-10 passed the scoped local one-room and simulated-day checks. C32-03 and C32-08 passed the six-second original-model collision and deduplication checks. C32-04 through C32-06, C32-09, and C32-10 remain pending.
+> The original 65-state model has scoped evidence for long runs, process interruption, hypoxia, heat accounting, solver comparison, and three fixed forms. C32-14 retains its overall FAIL alongside the passing comparisons and counterexamples. C32-16 is next.
+>
+> **v2.35 歷史驗收交接 / Earlier v2.35 acceptance handoff** [繁體中文](docs/v2.35/README_ZH-TW.md) · [English](docs/v2.35/README_EN.md)
 >
 > **v2.34 歷史驗收規格 / Earlier v2.34 acceptance criteria** [v2.34 繁體中文](docs/v2.34/README_ZH-TW.md) · [v2.34 English](docs/v2.34/README_EN.md)
 >
@@ -14,11 +16,11 @@
 
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**v2.35 acceptance handoff · 2026-11-08 · P-02 isolated research**
+**v2.36 research baseline · 2026-11-09 · P-02 isolated research**
 
 [首頁 Home](README.md) · [English home](README_EN.md) · [中文 v1.85](v1.85_ZH-TW.md) · [English v1.85](v1.85_EN.md) · [English history](HISTORY_EN.md)
 
-## v2.35 目前開發狀態 / Current development status
+## v2.36 目前開發狀態 / Current development status
 
 | 研究 / Research | 狀態與範圍 / Status and scope |
 | --- | --- |
@@ -26,14 +28,19 @@
 | 模擬日與停機 / Simulated day and downtime | W34-08–10 · `PASS_WITH_SCOPE`。86,400 秒模擬時間，三條路徑各自保留歷程 / 86,400 simulated seconds with each of the three run histories retained. |
 | 原版 65D 單次碰撞 / Original 65-state model single collision | C32-03 · `PASS_WITH_SCOPE` · 37/37。一個 S 型靜息代理，6 秒 / One S-form resting proxy over six seconds. |
 | 原版 65D 碰撞去重 / Original 65-state collision deduplication | C32-08 · `PASS_WITH_SCOPE` · 32/32。單次、依序重送及四寫入者競爭各只施加一次 / One application in each of the single, serial-retry, and four-writer contention cases. |
-| 原版 65D 長時與真實中斷 / Original-model long runs and process interruption | C32-04–06、C32-09、C32-10 · `NOT_RUN` |
+| 碰撞後長時 / Post-impact long runs | C32-04–06 · `PASS_WITH_SCOPE` · 53/53, 61/61, 76/76。1／24／72 小時配對，原版熱缺口和氧分布漂移分列 / Paired runs at 1, 24, and 72 hours, with original heat deficit and oxygen drift tracked separately. |
+| 分離碰撞與中斷 / Separated collisions and interruption | C32-07、09、10 · `PASS_WITH_SCOPE` · 60/60, 25/25, 26/26。逐筆耗散及單機交易停點 / Per-impact dissipation and single-host transaction interruption. |
+| 低氧、熱負荷與求解器 / Hypoxia, heat load, and solvers | C32-11–13 · `PASS_WITH_SCOPE` · 340/340, 360/360, 525/525。供體下界與原版微負值、逐筆熱帳和跨法比較分列 / Donor lower bounds and original-model tiny negatives, heat accounting, and solver comparison. |
+| 步長、容差與收斂 / Step size, tolerance, and convergence | C32-14 · `FAIL` · 132/133, 501/513。保留 72 小時通過條件及皮膚熱帳、WORLD 氧精度、BDF 時鐘反例 / Passing 72-hour comparisons alongside skin-heat, WORLD oxygen precision, and BDF clock counterexamples. |
+| 三型固定慣量與尺度 / Fixed-form inertia and scale | C32-15 · `PASS_WITH_SCOPE` · 273/273。固定單軸代理，附速度與再次接觸界線 / Fixed single-axis proxies with speed and renewed-contact limits. |
+| 下一輪 / Next | C32-16–18 · `NOT_RUN`。先驗翼根與魚尾根部，其次撤權，再按形態方案決定是否驗實體變形 / Wing and fish-tail roots first, revocation next, then physical morphing if selected. |
 | 原版無碰撞、ATP、氧與 24 DPB / No-collision baseline, ATP, oxygen, and 24-DPB work | 依各自的離線證據範圍 / Scoped offline evidence per research line. |
 
 C32-03 的純原方程重現阻尼熱缺口，列 `FAIL_EXPECTED`。絕對化學能座標的首次積分為 `FAIL`。本版研究頁分列這兩項與外掛阻尼熱的通過範圍。
 
 C32-03 records the original equations' damping-heat deficit as `FAIL_EXPECTED` and the first absolute-coordinate attempt as `FAIL`. The research pages distinguish both results from the scoped pass with external damping heat.
 
-[v2.35 中文驗收交接](docs/v2.35/README_ZH-TW.md) · [v2.35 English handoff](docs/v2.35/README_EN.md) · [v2.34 歷史規格](docs/v2.34/README_ZH-TW.md)
+[v2.36 中文交接](docs/v2.36/README_ZH-TW.md) · [v2.36 English handoff](docs/v2.36/README_EN.md) · [v2.35 歷史交接](docs/v2.35/README_ZH-TW.md)
 
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
