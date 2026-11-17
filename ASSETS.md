@@ -35,10 +35,31 @@
 | REF-09 | v03/v04 建模側面參考圖 (PNG) | RES-02/Q | PKG-01 內參考檔，原作者及再散布權待核對 | 權利待核對。只登錄文字。 |
 | REF-10 | v03/v04 建模背面參考圖 (PNG) | RES-02/Q | PKG-01 內參考檔，原作者及再散布權待核對 | 權利待核對。只登錄文字。 |
 
+## Q 型龍娘 v48
+
+| 檔案 | 用途與來源 | 公開狀態 |
+| --- | --- | --- |
+| `GPT_Dragon_Q_G1_v48_Dressed.blend` | 使用者指定的 Q 型測試基準。頭部網格沿用並修改 `animeGirlBase.blend`。 | 原頭模的出處及衍生物公開授權待核實。 |
+| `references/v20_reference_six_views/` | 六張指定參考圖，已與專案生成圖逐檔比對。 | 繼承的龍娘底圖來源待核實。 |
+
+以下指紋對應原交付包內的資產。
+
+| 檔案 | SHA-256 |
+| --- | --- |
+| `GPT_Dragon_Q_G1_v48_Dressed.blend` | `e9ce3129973ee9b9070bcd2d4540383a36a1f75d943670a9abb0b7f1f2b08f03` |
+| `back.png` | `3d867da5af7cf170b163a28d7f58b817ed0e934a7b6ef2d37c4d4798a2ed05f3` |
+| `front_a.png` | `75c86a02a9110e4a08c0125a2d17af4759e7c065e9626ceef1b59396dfce48fc` |
+| `front_b.png` | `d23bdeb72577078ed3cbfecba9f96f74449455644ef1da85dd589ead7a6fe685` |
+| `high34.png` | `2b52807794f5064025507761fbbd42415fb8cfd7e0113e173389f55fbe8321c5` |
+| `side.png` | `4528ca69b5d78f85eda8c9347710763289afbc3968f8adfd606bae2b469452f2` |
+| `tq_left.png` | `917b0a09808dea00280e1097f528fd39f35b4baf730d71683caabd27d25acaa8` |
+
+[測試基準](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md) · [Test baseline](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md)
+
 ## 待補來源
 
 早期 v01、v02 建模紀錄與第三方參考來源另待逐件定位。清單保留其歷史線索。
 v03/v04 工程與預覽沿用三張參考圖，連同內嵌引用、外部依賴和原始出處一併核對授權。
-形態外觀、碰撞代理與解剖代理分開驗收。主智能體三種形態的實體資產仍待定。
+形態外觀、碰撞代理與解剖代理分開驗收。Q 型 v48 已指定為共同測試模型。各形態正式資產與生理校準依既有研究入口接續。
 
 [既有公開範圍](docs/v2.09/PUBLICATION_SCOPE.md) · [GitHub 授權說明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)

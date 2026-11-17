@@ -47,6 +47,10 @@ C32-03 records the original equations' damping-heat deficit as `FAIL_EXPECTED` a
 
 [v2.37 中文交接](docs/v2.37/README_ZH-TW.md) · [v2.37 English handoff](docs/v2.37/README_EN.md) · [v2.36 中文交接](docs/v2.36/README_ZH-TW.md) · [v2.36 English handoff](docs/v2.36/README_EN.md) · [v2.35 歷史交接](docs/v2.35/README_ZH-TW.md)
 
+### Q 型龍娘 v48 測試基準
+
+Q 型 v48 已由使用者指定為共同測試模型，沿用 0.90 m 參考身高。原交付包 417 筆雜湊已核對。以正式 Blender 版本重跑站坐及翼尾姿勢、建立碰撞形體及單房間受力／受器串接，列待驗。 [測試基準](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md) · [Test baseline](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md)
+
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
 | 項目 / Area | 文件涵蓋 / Documented | 執行狀態 / Status |

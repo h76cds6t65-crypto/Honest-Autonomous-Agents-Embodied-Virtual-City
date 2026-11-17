@@ -4,6 +4,7 @@
 
 ## 從這裡開始
 
+- [Q 型龍娘 v48 測試基準](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md) · [Q-form v48 tests](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md)
 - [v2.37 研究基線與開發交接](docs/v2.37/README_ZH-TW.md) · [English v2.37](docs/v2.37/README_EN.md)
 - [v2.36 研究基線與開發交接](docs/v2.36/README_ZH-TW.md) · [English v2.36](docs/v2.36/README_EN.md)
 - [v2.35 驗收交接](docs/v2.35/README_ZH-TW.md) · [v2.34 歷史驗收規格](docs/v2.34/README_ZH-TW.md)
