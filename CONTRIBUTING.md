@@ -1,7 +1,7 @@
 # 研究審查與貢獻 / Research Review & Contributions
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**現行公開研究 / Current public research** [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md) · [公開現況 / Public status](CURRENT_STATUS.md)
+**現行公開研究 / Current public research** [v2.37 繁體中文](docs/v2.37/README_ZH-TW.md) · [v2.37 English](docs/v2.37/README_EN.md) · [公開現況 / Public status](CURRENT_STATUS.md)
 
 **v2.34 歷史驗收規格 / Earlier v2.34 acceptance criteria** [繁體中文](docs/v2.34/README_ZH-TW.md) · [English](docs/v2.34/README_EN.md)
 

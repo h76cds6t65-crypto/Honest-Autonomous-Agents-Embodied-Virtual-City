@@ -1,10 +1,12 @@
 # 現行設計狀態 / Current Design Status
 
-> **最新公開研究 / Latest public research [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md)** (2026-11-09)
+> **最新公開研究 / Latest public research [v2.37 繁體中文](docs/v2.37/README_ZH-TW.md) · [v2.37 English](docs/v2.37/README_EN.md)** (2026-11-17)
 >
-> 原版 65D 已有長時、事件中斷、低氧、熱帳、求解器與固定三型的限定範圍驗收。C32-14 的整體判定為 FAIL，保留通過範圍及反例。下一項為 C32-16。
+> C32-16 至 18 已完成隔離候選驗收，涵蓋翼尾根部受力、撤權後停止新推力，以及實體變形與掃掠碰撞。C32-14 兩輪整體仍為 FAIL。實體變形的正式選型待決。
 >
-> The original 65-state model has scoped evidence for long runs, process interruption, hypoxia, heat accounting, solver comparison, and three fixed forms. C32-14 retains its overall FAIL alongside the passing comparisons and counterexamples. C32-16 is next.
+> C32-16 through C32-18 have scoped offline evidence for wing and tail root loading, stopping new thrust after revocation, and swept contact during candidate physical morphing. Both C32-14 rounds retain their overall FAIL. The physical morphing design remains open.
+>
+> **v2.36 歷史研究基線 / Earlier v2.36 research baseline** [繁體中文](docs/v2.36/README_ZH-TW.md) · [English](docs/v2.36/README_EN.md)
 >
 > **v2.35 歷史驗收交接 / Earlier v2.35 acceptance handoff** [繁體中文](docs/v2.35/README_ZH-TW.md) · [English](docs/v2.35/README_EN.md)
 >
@@ -16,11 +18,11 @@
 
 
 **誠實的自主智能體與具身虛擬城市 / Honest Autonomous Agents & Embodied Virtual City**  
-**v2.36 research baseline · 2026-11-09 · P-02 isolated research**
+**v2.37 research baseline · 2026-11-17 · P-02 isolated research**
 
 [首頁 Home](README.md) · [English home](README_EN.md) · [中文 v1.85](v1.85_ZH-TW.md) · [English v1.85](v1.85_EN.md) · [English history](HISTORY_EN.md)
 
-## v2.36 目前開發狀態 / Current development status
+## v2.37 目前開發狀態 / Current development status
 
 | 研究 / Research | 狀態與範圍 / Status and scope |
 | --- | --- |
@@ -33,14 +35,17 @@
 | 低氧、熱負荷與求解器 / Hypoxia, heat load, and solvers | C32-11–13 · `PASS_WITH_SCOPE` · 340/340, 360/360, 525/525。供體下界與原版微負值、逐筆熱帳和跨法比較分列 / Donor lower bounds and original-model tiny negatives, heat accounting, and solver comparison. |
 | 步長、容差與收斂 / Step size, tolerance, and convergence | C32-14 · `FAIL` · 132/133, 501/513。保留 72 小時通過條件及皮膚熱帳、WORLD 氧精度、BDF 時鐘反例 / Passing 72-hour comparisons alongside skin-heat, WORLD oxygen precision, and BDF clock counterexamples. |
 | 三型固定慣量與尺度 / Fixed-form inertia and scale | C32-15 · `PASS_WITH_SCOPE` · 273/273。固定單軸代理，附速度與再次接觸界線 / Fixed single-axis proxies with speed and renewed-contact limits. |
-| 下一輪 / Next | C32-16–18 · `NOT_RUN`。先驗翼根與魚尾根部，其次撤權，再按形態方案決定是否驗實體變形 / Wing and fish-tail roots first, revocation next, then physical morphing if selected. |
+| 翼根與魚尾根部 / Wing and fish-tail roots | C32-16 · `PASS_WITH_SCOPE` · 413/413。固定形態小變形梁，首輪重建 398/407、FAIL / Fixed-form small-deflection beams. The reconstructed first round retains its 398/407 FAIL. |
+| 跨同步點撤權 / Revocation across sync points | C32-17 · `PASS_WITH_SCOPE` · 947/947。單一 SQLite 權威，撤權後十筆新請求全拒，紀元對照 6/8、FAIL / One SQLite authority rejected all ten new post-revocation requests. The epoch-only control retains its 6/8 FAIL. |
+| 實體變形與掃掠碰撞 / Physical morphing and swept contact | C32-18 · `PASS_WITH_SCOPE` · 120,941/120,941。軸對稱橢球代理，52 場景三種時鐘，33 次預期拒絕 / Axisymmetric ellipsoid proxy, 52 cases across three clocks, 33 expected rejections. |
+| 待驗收 / Pending acceptance | 局部材料與器官接線、正式跨主機、實體變形選型與三維模型 / Local material and organ coupling, formal multi-host authority, the morphing decision and three-dimensional model. |
 | 原版無碰撞、ATP、氧與 24 DPB / No-collision baseline, ATP, oxygen, and 24-DPB work | 依各自的離線證據範圍 / Scoped offline evidence per research line. |
 
 C32-03 的純原方程重現阻尼熱缺口，列 `FAIL_EXPECTED`。絕對化學能座標的首次積分為 `FAIL`。本版研究頁分列這兩項與外掛阻尼熱的通過範圍。
 
 C32-03 records the original equations' damping-heat deficit as `FAIL_EXPECTED` and the first absolute-coordinate attempt as `FAIL`. The research pages distinguish both results from the scoped pass with external damping heat.
 
-[v2.36 中文交接](docs/v2.36/README_ZH-TW.md) · [v2.36 English handoff](docs/v2.36/README_EN.md) · [v2.35 歷史交接](docs/v2.35/README_ZH-TW.md)
+[v2.37 中文交接](docs/v2.37/README_ZH-TW.md) · [v2.37 English handoff](docs/v2.37/README_EN.md) · [v2.36 中文交接](docs/v2.36/README_ZH-TW.md) · [v2.36 English handoff](docs/v2.36/README_EN.md) · [v2.35 歷史交接](docs/v2.35/README_ZH-TW.md)
 
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 

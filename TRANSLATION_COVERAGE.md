@@ -1,6 +1,6 @@
 # Translation Coverage and Historical Equivalence Review
 
-> **現行公開研究 / Current public research** [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md) · [公開現況 / Public status](CURRENT_STATUS.md)
+> **現行公開研究 / Current public research** [v2.37 繁體中文](docs/v2.37/README_ZH-TW.md) · [v2.37 English](docs/v2.37/README_EN.md) · [公開現況 / Public status](CURRENT_STATUS.md)
 >
 > **歷史離線研究 / Earlier offline research** [v2.09 繁體中文](docs/v2.09/README_ZH-TW.md) · [v2.09 English](docs/v2.09/README_EN.md) (2026-10-27) — [中文公式](docs/v2.09/EQUATIONS_ZH-TW.md) / [English equations](docs/v2.09/EQUATIONS_EN.md) · [中文驗收](docs/v2.09/VALIDATION_ZH-TW.md) / [English validation](docs/v2.09/VALIDATION_EN.md) · [歷史技術沿革](docs/v2.09/HISTORY_ZH-TW.md) / [English history](docs/v2.09/HISTORY_EN.md).
 >

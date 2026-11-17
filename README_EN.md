@@ -1,10 +1,12 @@
 # 自成之境 · Honest Autonomous Agents & Embodied Virtual City
 
-> **最新公開研究 / Latest public research [v2.36 繁體中文](docs/v2.36/README_ZH-TW.md) · [v2.36 English](docs/v2.36/README_EN.md)** (2026-11-09)
+> **最新公開研究 / Latest public research [v2.37 繁體中文](docs/v2.37/README_ZH-TW.md) · [v2.37 English](docs/v2.37/README_EN.md)** (2026-11-17)
 >
-> 原版 65D 已有長時、事件中斷、低氧、熱帳、求解器與固定三型的限定範圍驗收。C32-14 的整體判定為 FAIL，保留通過範圍及反例。下一項為 C32-16。
+> C32-16 至 18 已完成隔離候選驗收，涵蓋翼尾根部受力、撤權後停止新推力，以及實體變形與掃掠碰撞。C32-14 兩輪整體仍為 FAIL。實體變形的正式選型待決。
 >
-> The original 65-state model has scoped evidence for long runs, process interruption, hypoxia, heat accounting, solver comparison, and three fixed forms. C32-14 retains its overall FAIL alongside the passing comparisons and counterexamples. C32-16 is next.
+> C32-16 through C32-18 have scoped offline evidence for wing and tail root loading, stopping new thrust after revocation, and swept contact during candidate physical morphing. Both C32-14 rounds retain their overall FAIL. The physical morphing design remains open.
+>
+> **v2.36 歷史研究基線 / Earlier v2.36 research baseline** [繁體中文](docs/v2.36/README_ZH-TW.md) · [English](docs/v2.36/README_EN.md)
 >
 > **v2.35 歷史驗收交接 / Earlier v2.35 acceptance handoff** [繁體中文](docs/v2.35/README_ZH-TW.md) · [English](docs/v2.35/README_EN.md)
 >
@@ -15,7 +17,7 @@
 > v2.09 documents scoped **offline** math/geometry findings and explicit failures. The earlier v1.85 materials below remain a historical public design baseline, not the latest experimental state. Private Word/ZIP files, personal information and unlicensed artwork are not distributed. P-02 remains active.
 
 
-**自成之境** · v2.36 research baseline and development handoff · 2026-11-09 (v1.85 remains the historical public design baseline)
+**自成之境** · v2.37 research baseline and development handoff · 2026-11-17 (v1.85 remains the historical public design baseline)
 
 [中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
@@ -58,7 +60,7 @@ These statements describe **contribution roles**. They do not mean an AI necessa
 | Candidate blind spots | **36/36** G61–G96 | **Candidates**, not adopted new requirements |
 | Historical drift review | **20/20** D01–D20 | Paper reconciliation, not proof of software |
 | Detailed 24-DPB interfaces | 24 semantic candidates, source mismatches and input/output contracts | 24 names recovered; canonical authority still to be reviewed |
-| Newest tests | **48 module + 20 cross-system = 68** | **All NOT_RUN** |
+| v1.85 proposed tests | **48 module + 20 cross-system = 68** | **All NOT_RUN** |
 | Version history | v1.84, 1.83, 1.82, 1.81, 1.80, 1.79 | Dedicated English translated chapters plus cumulative Chinese record |
 
 The older formal R-01–R-149 text survives through cross-references and historical source tracking, but the original several-hundred-page private mother document is **not** represented as a public exact full reprint. The current Chinese v1.85 preserves public cumulative chapters; the English v1.85 gives a detailed subject-indexed review supplemented by [fuller historical translations](HISTORY_EN.md). Translation grouping and terminology are adapted for clarity: **not a certified word-for-word legal translation**.
