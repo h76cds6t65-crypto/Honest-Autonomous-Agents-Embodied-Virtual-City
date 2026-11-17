@@ -6,9 +6,17 @@ On 2026-11-17 the project owner selected `GPT_Dragon_Q_G1_v48_Dressed.blend` as 
 
 ## Evidence available
 
-- All 417 package checksums matched. A local open attempt with Blender 4.3.2 failed with a header compatibility error. The handoff calls for Blender 5.2.3. Opening and rerendering in that version and the following acceptance runs are pending.
+- All 417 package checksums matched. A local open attempt with Blender 4.3.2 failed with a header compatibility error. The handoff calls for Blender 5.2.3. The file opened in that version and the first-round results follow below. Full material rerendering is pending.
 - The delivery records list 80 bones. Recounting the archived checks gives 22,242 garment-overlap points in the specified seated v47 pose and 134 in v48, all at the bodice lower edge. The tail still has 702 overlap points in that pose. The 120° knee-bend garment count rose from 6,200 to 6,355, a useful extreme-pose regression. These are counts for the archived mesh and sampling method.
 - The garments use rig-driven pose correctives. Cloth simulation is disabled in the delivery settings. The tests track appearance, moving geometry, collision shapes, and sensory responses as distinct evidence.
+
+## First test round (2026-11-17)
+
+- The file opened in Blender 5.2.3 LTS with 16 packed file images. The archived rig checks passed for 80 bones, 451 mesh parts, and 11 finite pose samples.
+- In the original neutral pose, bare sole to crown was 0.976214 m, 76.214 mm above the 0.90 m reference. The scale check failed. A uniformly scaled coordinate copy was used for a separate 0.90 m comparison. The original model is still identified by the source checksum.
+- The neutral standing pose and 12 posed overlap samples reproduced the delivery data. The specified seated pose retained 134 garment points and 702 tail points. The 120° knee bend retained 6,355 garment points. The standing audit separately retained 3,350 clothing vertices 1–30 mm inside the body, including inset and fitted surfaces.
+- Actual mesh vertices at both wingtips and the tail tip produced within-step thin-plate contacts in a 120 Hz fixture. The perpendicular moment arms at the 0.90 m scale were 428.02, 391.16 and 427.25 mm. The single-room receptor test interface received three committed collision receipts after the local SQLite database was reopened. Replay left three receipts, three effects and three receptor messages.
+- The sweep used 3 mm-radius tip probes and a 2 mm-thick test plate. The collision impulse was prescribed for the interface test. Full collision shapes, materials and 24-DPB organ calibration remain to be validated.
 
 ## Acceptance plan
 
