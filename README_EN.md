@@ -21,6 +21,8 @@
 
 [中文首頁 / Chinese home](README.md) · [Current status](CURRENT_STATUS.md) · [How to contribute](CONTRIBUTING.md) · [Traditional Chinese detailed guide](START_HERE_ZH-TW.md) · [Translation coverage audit](TRANSLATION_COVERAGE.md)
 
+[Q-form v48 Blender model and 14 reference images](assets/q-dragon/v48/) · [First test round and acceptance plan](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md)
+
 ## Start here: full documentation, not a short press summary
 
 | What you want to inspect | English | Traditional Chinese |

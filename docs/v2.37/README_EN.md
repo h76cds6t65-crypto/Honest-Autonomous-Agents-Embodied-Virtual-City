@@ -6,6 +6,8 @@
 
 v2.37 follows Section 8 of v2.36 with executed evidence for C32-16 wing and fish-tail root loading, C32-17 revocation across synchronization points, and C32-18 candidate physical morphing during contact. Earlier one-room, original 65-state event persistence, and paired long-run evidence remains in v2.35 and v2.36. Both the original C32-14 sweep and the follow-up retain their overall `FAIL`.
 
+The first Q-form v48 test round and its 18 November replay cover the original model’s scale, mesh overlaps, and single-room receptor results. [Test results](Q_DRAGON_V48_TESTS_EN.md) · [Model and reference images](../../assets/q-dragon/v48/)
+
 ## Results
 
 | Acceptance item | Original run and archive replay | Scope |

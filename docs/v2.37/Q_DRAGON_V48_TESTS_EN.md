@@ -18,6 +18,8 @@ On 2026-11-17 the project owner selected `GPT_Dragon_Q_G1_v48_Dressed.blend` as 
 - Actual mesh vertices at both wingtips and the tail tip produced within-step thin-plate contacts in a 120 Hz fixture. The perpendicular moment arms at the 0.90 m scale were 428.02, 391.16 and 427.25 mm. The single-room receptor test interface received three committed collision receipts after the local SQLite database was reopened. Replay left three receipts, three effects and three receptor messages.
 - The sweep used 3 mm-radius tip probes and a 2 mm-thick test plate. The collision impulse was prescribed for the interface test. Full collision shapes, materials and 24-DPB organ calibration remain to be validated.
 
+**Replay on 2026-11-18.** All 39 SHA-256 entries in the first-round archive matched. Starting from the archived Blender measurements, the replay reproduced the 0.90 m coordinates and all four sweep and receptor JSON files byte for byte across the two scales. Both room databases passed integrity and foreign-key checks. At each scale, all three receipts, three effects, and three receptor messages matched the archived rows. The first round remains a partial pass. The original height exceeds the ±5 mm tolerance, and overlaps remain in the seated pose and extreme knee bend.
+
 ## Acceptance plan
 
 | Stage | Test | Evidence |
@@ -39,7 +41,7 @@ Begin with opening, neutral scale, and standing, seated, wing, and tail pose rep
 
 ## Model and reference images
 
-The v48 handoff records that the head uses adapted geometry from `animeGirlBase.blend`. Redistribution and derivative permissions for that source model and the underlying source art used for the six generated reference views are pending verification. The [asset register](../../ASSETS.md) records filenames, fingerprints, and publication status.
+The original model and 14 reference PNGs were verified on GitHub on 2026-11-18. The head retains the v20 adaptation of `animeGirlBase.blend`. The attribution file names Voogie, links the original work, and records CC BY 4.0 as listed in the original download record. The upstream artwork used for the six v20 views still needs source verification. [Original Blender model](../../assets/q-dragon/v48/GPT_Dragon_Q_G1_v48_Dressed.blend) · [14 reference PNGs](../../assets/q-dragon/v48/references/) · [Head-mesh attribution](../../assets/q-dragon/v48/ATTRIBUTION.md) · [Per-file SHA-256](../../ASSETS.md)
 
 ## References
 

@@ -51,6 +51,10 @@ C32-03 records the original equations' damping-heat deficit as `FAIL_EXPECTED` a
 
 Q 型 v48 已由使用者指定為共同測試模型，沿用 0.90 m 參考身高。原交付包 417 筆雜湊已核對。Blender 5.2.3 已開檔，骨架通過原檢查，站坐交疊重現。原檔裸腳至頭頂為 0.976214 m，尺度項未達。0.90 m 座標的三個末端掃掠及單房間回執到測試受器已實跑。完整碰撞形體、材料與器官校準待驗。 [測試基準](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md) · [Test baseline](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md)
 
+2026 年 11 月 18 日，GitHub 上的 v48 原始模型和 14 張 PNG 均已逐檔核對。頭模署名已隨模型發布，v20 六視圖所沿用的底圖來源仍待核實。從封存量測重跑後，原尺度和 0.90 m 換算尺度都重現三筆回執、三筆效果及三筆受器訊息。第一輪整體列部分通過。[模型與底圖](assets/q-dragon/v48/) · [素材清單](ASSETS.md)
+
+On 2026-11-18, the original Blender model and all 14 reference PNGs on GitHub matched their source files. The model includes a separate head-mesh attribution. The upstream artwork used for the six v20 views is still being traced. Replay from the archived measurements reproduced three receipts, three effects, and three receptor messages at each scale. The first round remains a partial pass. Bare sole to crown measured 0.976214 m against the 0.90 m reference, and garment and tail overlap remain in the seated pose. [Test results](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md) · [Head-mesh attribution](assets/q-dragon/v48/ATTRIBUTION.md)
+
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
 | 項目 / Area | 文件涵蓋 / Documented | 執行狀態 / Status |
