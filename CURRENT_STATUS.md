@@ -55,6 +55,10 @@ Q 型 v48 已由使用者指定為共同測試模型，沿用 0.90 m 參考身�
 
 On 2026-11-18, the original Blender model and all 14 reference PNGs on GitHub matched their source files. The model includes a separate head-mesh attribution. The upstream artwork used for the six v20 views is still being traced. Replay from the archived measurements reproduced three receipts, three effects, and three receptor messages at each scale. The first round remains a partial pass. Bare sole to crown measured 0.976214 m against the 0.90 m reference, and garment and tail overlap remain in the seated pose. [Test results](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md) · [Head-mesh attribution](assets/q-dragon/v48/ATTRIBUTION.md)
 
+2026 年 11 月 19 日，Q 型 v48 左翼尖在單房間完成一次撤權後的被動碰牆。三處程序中斷後重送，最後各有一筆碰撞、接觸效果與左翼根受器訊息。先撤權及側移牆兩組對照都未產生碰撞。此回合列受限範圍通過，第一輪的尺度與穿模結果繼續保留。[左翼尖驗收](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md#左翼尖單房間碰牆)
+
+On 2026-11-19 one guided left-wingtip contact after revocation passed the single-room acceptance. Three process interruptions and retries converged on one collision, one contact effect and one left-root receptor message. Both no-contact controls stayed clear. The original scale and overlap findings remain on record. [Left-wingtip acceptance](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md#single-room-left-wingtip-wall-contact)
+
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
 | 項目 / Area | 文件涵蓋 / Documented | 執行狀態 / Status |

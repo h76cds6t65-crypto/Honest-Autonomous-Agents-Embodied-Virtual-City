@@ -20,6 +20,21 @@ On 2026-11-17 the project owner selected `GPT_Dragon_Q_G1_v48_Dressed.blend` as 
 
 **Replay on 2026-11-18.** All 39 SHA-256 entries in the first-round archive matched. Starting from the archived Blender measurements, the replay reproduced the 0.90 m coordinates and all four sweep and receptor JSON files byte for byte across the two scales. Both room databases passed integrity and foreign-key checks. At each scale, all three receipts, three effects, and three receptor messages matched the archived rows. The first round remains a partial pass. The original height exceeds the ±5 mm tolerance, and overlaps remain in the seated pose and extreme knee bend.
 
+## Single-room left-wingtip wall contact
+
+On 2026-11-19 the original-scale fixture used 33 archived Blender poses of left-wingtip vertex 761 and its root. A single guided degree of freedom moves the tip toward a vertical wall along negative Y. The initial clearance is 19 mm. The run connects authorization, passive contact after revocation, root torque and receptor delivery for one actuator event. It passed within this scope (`PASS_WITH_SCOPE`).
+
+| WORLD tick | Result |
+| --- | --- |
+| 120 | One authorized 0.010 N·s input brought the 0.020 kg effective guide mass to 0.500 m/s. |
+| 123 | Revocation took effect. Two new drive requests were rejected. Replaying the original committed command returned its signed receipt. |
+| 124.56–124.80 | The coasting tip reached the wall. Normal force fell from 15 N to zero over 2 ms. The wall imparted 0.015 N·s in +Y, with an equal opposite reaction and 0.001875 J dissipated. |
+| 132 | The committed body snapshot allowed delivery to `wing_root.L`. Restart and retries left one collision, one contact effect and one receptor message. |
+
+The perpendicular lever arm was 407.394 mm. At 15 N the world-frame root torque was (−0.216688, 0, +6.107069) N·m, with magnitude 6.110912 N·m. Integrating over the changing geometry gave a root angular impulse of (−0.000225648, 0, +0.006107884) N·m·s. The effective mass, restitution of 1/2 and normal force history were prescribed. Wing membranes, material strength and 24-DPB organs still require calibration.
+
+Workers were killed before the WORLD commit, after commit but before reply, and after the contact effect was stored but before receptor delivery. Each recovery matched continuous operation. Revocation before thrust and a 0.20 m lateral wall offset each produced zero collisions and zero receptor messages. On extraction and replay with fresh test keys, three result JSON files matched byte for byte and all twelve tables in each of six SQLite databases matched in logical content.
+
 ## Acceptance plan
 
 | Stage | Test | Evidence |
