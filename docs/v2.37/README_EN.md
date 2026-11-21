@@ -41,5 +41,6 @@ Physical morphing remains a design decision. Full acceptance would need three-di
 ## Development handoff
 
 - The next fixed-form integration can use one room, one actuator, and a known contact force history to connect authorization provenance, receipts, and local loading and sensing. On 19 November the fixed v48 Q-form left wingtip completed this integration and restart replay in one guided contact fixture. Material and organ calibration remain open. [Left-wingtip wall contact](Q_DRAGON_V48_TESTS_EN.md#single-room-left-wingtip-wall-contact)
+- On 21 November the recorded −25° right wing kept at least 19.00 mm clear of the mirrored wall. A separate sidewall contact produced one right-root message and zero left-root messages after each of three interruptions. Native positive-angle poses are the next check on the same-wall prediction. [Right wing mirror and sidewall](Q_DRAGON_V48_TESTS_EN.md#right-wing-mirror-and-sidewall)
 - C32-14 retains the overall `FAIL` outcomes at 132/133 and 501/513. The single-impact WORLD oxygen tolerance, BDF clock stalls, and the original long-run oxygen distribution each retain their own evidence and criteria.
 - Joint operation of WORLD, MAG, the original 65-state model, and 24-DPB, as well as multi-host consistency, follow their own evidence and approval conditions. P-02 uses isolated research scenarios.

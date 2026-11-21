@@ -35,6 +35,29 @@ The perpendicular lever arm was 407.394 mm. At 15 N the world-frame root torque 
 
 Workers were killed before the WORLD commit, after commit but before reply, and after the contact effect was stored but before receptor delivery. Each recovery matched continuous operation. Revocation before thrust and a 0.20 m lateral wall offset each produced zero collisions and zero receptor messages. On extraction and replay with fresh test keys, three result JSON files matched byte for byte and all twelve tables in each of six SQLite databases matched in logical content.
 
+## Right wing mirror and sidewall
+
+On 2026-11-21 we tested whether the left wing’s contact could be reproduced on the right, at the original model scale with the same 3 mm tip probe. The Blender 5.2.3 archive contains 33 poses per side, each rotated about its own root’s local X axis. Over 0° to +25° the left tip rose 195.213 mm. Over 0° to −25° the right tip fell 175.509 mm.
+
+| Path and wall | Contact result | Normal lever arm | Root torque magnitude at 15 N |
+| --- | --- | ---: | ---: |
+| Recorded right, −25°, mirrored wall | Missed throughout 32 segments. Neither root received a message. | — | — |
+| Ideal reflection of the recorded left path, same wall | Hit. The vectors followed their reflection rules. | 407.394 mm | 6.110912 N·m |
+| Recorded right, −25°, separate vertical sidewall | Hit. Right root received one message, left root zero. | 287.608 mm | 4.314120 N·m |
+| Predicted right, +25° about its own neutral root axis, mirrored wall | Predicted hit. Native positive-angle mesh sampling is pending. | 407.060 mm | 6.105897 N·m |
+
+**Same wall.** The smallest distance between the recorded right probe surface and the finite plate was 19.000 mm. Extending the plate to an infinite plane gave 17.427 mm at a location outside the plate. The figure aligns paths by absolute local angle. The contact check used the full three-dimensional plate.
+
+![Across 33 poses the recorded right wingtip falls and stays short of the 19 mm approach threshold. The ideal reflection of the left wingtip rises and crosses it.](figures/q-dragon-v48-wing-approach.svg)
+
+Reflection across X = 0 reverses the X component for position, normal and linear impulse. Torque and angular impulse are axial vectors, so X keeps its sign and Y and Z reverse. At 15 N the left-root torque was (−0.216688, 0, +6.107069) N·m. Its ideal right-side reflection was (−0.216688, 0, −6.107069) N·m. All nine torque samples and the integrated angular impulse followed this rule.
+
+**Contact on the recorded right path.** A separate sidewall with normal along −X and the same 19 mm initial gap intersected the recorded path. Drive at tick 120, revocation at 123 and the prescribed 2 ms pulse followed the left fixture. Passive contact began at 124.56, ended at 124.80 and reached the right-root receptor at tick 132. At 15 N the root torque was (0, +2.242283, +3.685620) N·m. Killing the process before commit, after commit before reply, or after effect before delivery yielded one collision, one contact effect, one right-root message and zero left-root messages after recovery in every case. Revocation before thrust and shifting the sidewall by 0.20 m each produced zero collisions and receptor messages. The sidewall contact and delivery test is `PASS_WITH_SCOPE`. The prescribed force is a test input. Materials, membrane and organs still need calibration.
+
+Replay from the extracted evidence package used fresh test keys. All four JSON files were byte-identical, the logical contents of all 13 SQLite tables matched in each of nine rooms, and signatures from both runs verified.
+
+**Positive-angle check.** A rigid rotation about the right root reproduced all 33 archived negative-angle tip positions to a maximum error of 0.136 µm. At matching absolute angles, the predicted positive path differed from the ideal reflected left tip by at most 0.103 mm. Blender 4.3.2 in this environment reported an incompatible header when opening the original file. The next check uses Blender 5.2.3 to sample 33 native poses for each sign, checks the pointwise errors against 0.5 µm, and recomputes the contact and lever using the measured positive poses.
+
 ## Acceptance plan
 
 | Stage | Test | Evidence |

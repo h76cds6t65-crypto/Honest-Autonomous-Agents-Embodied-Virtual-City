@@ -59,6 +59,10 @@ On 2026-11-18, the original Blender model and all 14 reference PNGs on GitHub ma
 
 On 2026-11-19 one guided left-wingtip contact after revocation passed the single-room acceptance. Three process interruptions and retries converged on one collision, one contact effect and one left-root receptor message. Both no-contact controls stayed clear. The original scale and overlap findings remain on record. [Left-wingtip acceptance](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md#single-room-left-wingtip-wall-contact)
 
+2026 年 11 月 21 日，重查 v48 原始模型、14 張底圖及署名，16 個檔案的 SHA-256 皆吻合。原尺度的封存右翼 −25° 在左翼試牆的鏡射位置全程未碰，最小間隙 19.00 mm。另設側牆後，三處中斷恢復都只送出一筆右翼根訊息，左翼根零筆。右翼 +25° 的同牆接觸仍是推算，待原網格取樣。[右翼鏡射與側牆](docs/v2.37/Q_DRAGON_V48_TESTS_ZH-TW.md#右翼鏡射與側牆)
+
+On 2026-11-21 the original model, 14 reference PNGs and attribution matched all 16 source hashes. The recorded −25° right wing missed the mirrored wall by at least 19.00 mm. In a separate sidewall test, each of three interrupted runs recovered with one right-root message and zero left-root messages. Direct native sampling of the +25° same-wall prediction remains open. [Right wing mirror and sidewall](docs/v2.37/Q_DRAGON_V48_TESTS_EN.md#right-wing-mirror-and-sidewall)
+
 ## 1. v1.85 歷史設計範圍 / Historical v1.85 design scope
 
 | 項目 / Area | 文件涵蓋 / Documented | 執行狀態 / Status |
